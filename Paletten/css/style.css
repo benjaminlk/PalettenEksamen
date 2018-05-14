@@ -24,12 +24,19 @@ footer{
         background-color:white;
         
     }
+    
+    #forsidebillede{
+        width:90%;
+        display:block;
+        margin-right:auto;
+        margin-left:auto;
+        margin-top:8px;
+    }
     .menumobil{
     text-align:center;
     list-style-type: none;
     padding: 0px;
-    margin:50px;
-    
+    margin:5px 50px;
     overflow: hidden;
 }
     .menumobil li a{
@@ -44,7 +51,7 @@ footer{
     }
     footer img{
         width:50px;
-        margin:0 30px;
+        margin:0 8px;
     }
     footer{
         text-align:center;
