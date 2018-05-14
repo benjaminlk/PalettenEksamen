@@ -5,17 +5,22 @@ html, body {
   margin: 0;
   padding: 0;
 }
+html{
+    height:100%;
+}
 
 body{
     font-family:Open Sans;
     background-color:#ecf5d4;
-}
-
-header{
+    min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
 }
 
 footer{
  background-color: #cdd1ba;
+grid-row-start: 2;
+grid-row-end: 3;
 }
 
 @media only screen and (max-width: 600px) {
