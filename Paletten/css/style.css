@@ -4,12 +4,49 @@
 
 body{
     font-family:Open Sans;
-    background-color:#ecf5d4
+    background-color:#ecf5d4;
 }
 
-header{ background-color: white;
+header{
 }
 
 footer{
  background-color: #cdd1ba;
 }
+
+@media only screen and (max-width: 600px) {
+    
+    #logomobil{
+        width:100px;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        background-color:white;
+        
+    }
+    .menumobil{
+    text-align:center;
+    list-style-type: none;
+    padding: 0px;
+    margin:50px;
+    
+    overflow: hidden;
+}
+    .menumobil li a{
+        text-decoration:none;
+        color:#000000;
+    }
+    .menumobil li{
+        border-style:solid;
+        border-color:#cdd1ba;
+        margin-top:10px;
+        padding:5px 0 5px 0;
+    }
+    footer img{
+        width:50px;
+        margin:0 30px;
+    }
+    footer{
+        text-align:center;
+    }
+    }
