@@ -42,6 +42,10 @@ grid-row-end: 3;
         margin-top:8px;
     }
     
+    /*vis ikke menu på andre sider end index*/
+    .nomenu{
+        display:none;
+    }
     
     /*menu til mobil*/
     .menumobil{
