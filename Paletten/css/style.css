@@ -1,82 +1,162 @@
-*
-{box-sizing: border-box;
-}
-html, body {
-  margin: 0;
-  padding: 0;
-}
-html{
-    height:100%;
+* {
+    box-sizing: border-box;
 }
 
-body{
-    font-family:Open Sans;
-    background-color:#ecf5d4;
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Open Sans;
+    background-color: #ecf5d4;
     min-height: 100%;
-  display: grid;
-  grid-template-rows: 1fr auto;
+    display: grid;
+    grid-template-rows: 1fr auto;
 }
 
 /*footer både til mobil og web*/
-footer{
- background-color: #cdd1ba;
-grid-row-start: 2;
-grid-row-end: 3;
+
+footer {
+    background-color: #cdd1ba;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
+
+/*CSS til mobilversion*/
 
 @media only screen and (max-width: 600px) {
     /*logo til mobil*/
-    #logomobil{
-        width:100px;
-        display:block;
-        margin-left:auto;
-        margin-right:auto;
-        background-color:white;  
+    #logomobil {
+        width: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
     }
-    
+
     /*forside billede*/
-    #forsidebillede{
-        width:90%;
-        display:block;
-        margin-right:auto;
-        margin-left:auto;
-        margin-top:8px;
+    #forsidebillede {
+        width: 90%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 8px;
     }
-    
+
     /*vis ikke menu på andre sider end index*/
-    .nomenu{
-        display:none;
+    .nomenu {
+        display: none;
     }
-    
+
     /*menu til mobil*/
-    .menumobil{
-    text-align:center;
-    list-style-type: none;
-    padding: 0px;
-    margin:5px 50px;
-    overflow: hidden;
+    .menumobil {
+        text-align: center;
+        list-style-type: none;
+        padding: 0px;
+        margin: 5px 50px;
+        overflow: hidden;
+    }
+
+    .menumobil li a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .menumobil li {
+        border-style: solid;
+        border-color: #cdd1ba;
+        margin-top: 10px;
+        padding: 5px 0 5px 0;
+    }
+
+
+    /*footer til mobil*/
+    footer img {
+        width: 50px;
+        margin: 0 8px;
+    }
+
+    footer {
+        margin-top: 10px;
+        text-align: center;
+    }
 }
-    
-    .menumobil li a{
-        text-decoration:none;
-        color:#000000;
+
+/* CSS til WEBVERSION*/
+
+@media only screen and (min-width: 1200px) {
+
+    /*vis ikke forsidebillede fra mobil*/
+    #forsidebillede {
+        display: none;
     }
-    
-    .menumobil li{
-        border-style:solid;
-        border-color:#cdd1ba;
-        margin-top:10px;
-        padding:5px 0 5px 0;
+
+    /*vis ikke logo til mobil*/
+    #logomobil {
+        display: none;
     }
-    
-    
-    /*footer*/
-    footer img{
-        width:50px;
-        margin:0 8px;
+
+    header {
+        background-color: #ffffff;
+        width: 100%;
+        position:absolute;
     }
-    footer{
-        margin-top:10px;
-        text-align:center;
+
+    /*logo til web*/
+    #logoweb {
+        padding: 15px 0px;
+        width: 175px;
+        float: left;
+        margin-left: 5%;
     }
+
+    /*Menu til web*/
+    .menuweb {
+        float: right;
+        list-style-type: none;
+        margin: 40px 5% 0 0;
+        padding: 0px;
+        overflow: hidden;
     }
+
+    .menuweb li {
+        float: left;
+        display: inline;
+        margin-left: 10px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        overflow: hidden;
+    }
+
+    .menuweb li a {
+        display: inline-block;
+        text-align: center;
+        padding: 5px 18px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        border-style: solid;
+        border-width: 2px;
+        border-color: #696969;
+    }
+
+    li a {
+        color: #696969;
+    }
+
+    .active {
+        border-style: solid;
+        border-width: 1.5px;
+        border-color: #696969;
+    }
+
+}
