@@ -105,7 +105,7 @@ footer {
     header {
         background-color: #ffffff;
         width: 100%;
-        position:absolute;
+        position: absolute;
     }
 
     /*logo til web*/
@@ -159,4 +159,34 @@ footer {
         border-color: #696969;
     }
 
+
+    /*slideshow til web*/
+    #slideshow-wrapper {
+        width: 740px;
+        height: 320px;
+        margin: 30px auto;
+    }
+
+    #slideshow {
+        margin-bottom: 5px;
+        width: 740px;
+        height: 300px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    #slideshow img {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .circle {
+        margin-right: 15px;
+        display: inline-block;
+        background-color: lightgrey;
+        width: 12px;
+        height: 12px;
+        border-radius: 50px;
+    }
 }
