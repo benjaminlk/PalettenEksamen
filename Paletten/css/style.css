@@ -17,6 +17,7 @@ body{
   grid-template-rows: 1fr auto;
 }
 
+/*footer både til mobil og web*/
 footer{
  background-color: #cdd1ba;
 grid-row-start: 2;
