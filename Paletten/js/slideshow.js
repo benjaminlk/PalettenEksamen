@@ -20,7 +20,7 @@
 $(document).ready(function(){ //wait until page is fully loaded
 
 	//the slideshow code uses this to determine a few things. Make sure this is set correctly!			
-	const NUMBER_OF_SLIDES = 3;
+	const NUMBER_OF_SLIDES = 5;
 
 	//get the width of the side-scrollable area in the 'sldieshow' div and divide by NUMBER_OF_SLIDES so that the 
 	//scrollLeft under setInterval knows by how much to scroll
