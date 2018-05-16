@@ -1,0 +1,336 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Open Sans;
+    background-color: #ecf5d4;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+
+
+
+    /*vis ikke menu på andre sider end index*/
+    .nomenu {
+        display: none;
+    }
+
+    /*menu til mobil*/
+    .menumobil {
+        text-align: center;
+        list-style-type: none;
+        padding: 0px;
+        margin: 5px 50px;
+        overflow: hidden;
+    }
+
+    .menumobil li a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .menumobil li {
+        border-style: solid;
+        border-color: #cdd1ba;
+        margin-top: 10px;
+        padding: 5px 0 5px 0;
+    }
+
+
+
+/* CSS til WEBVERSION*/
+
+@media only screen and (min-width: 1200px) {
+
+    /*vis ikke forsidebillede fra mobil*/
+    #forsidebillede {
+        display: none;
+    }
+
+    /*vis ikke logo til mobil*/
+    #logomobil {
+        display: none;
+    }
+
+    header {
+        background-color: #ffffff;
+        width: 100%;
+        position: absolute;
+    }
+
+    /*logo til web*/
+    #logoweb {
+        padding: 15px 0px;
+        width: 175px;
+        float: left;
+        margin-left: 5%;
+    }
+
+    /*Menu til web*/
+    .menuweb {
+        float: right;
+        list-style-type: none;
+        margin: 40px 5% 0 0;
+        padding: 0px;
+        overflow: hidden;
+    }
+
+    .menuweb li {
+        float: left;
+        display: inline;
+        margin-left: 10px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        overflow: hidden;
+    }
+
+    .menuweb li a {
+        display: inline-block;
+        text-align: center;
+        padding: 5px 18px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        border-style: solid;
+        border-width: 2px;
+        border-color: #696969;
+    }
+
+    li a {
+        color: #696969;
+    }
+
+    .active {
+        border-style: solid;
+        border-width: 1.5px;
+        border-color: #696969;
+    }
+
+ /*container til kalender*/
+ 
+ 
+ .container {
+  display: flex;
+  justify-content: space-between;
+  background-color: darkgray;
+  width: 100%;
+ 
+  
+}
+.col {
+  flex: 1;
+
+}
+ 
+ 
+/* kalender */
+ 
+ 
+
+.month {
+    padding: 70px 25px;
+    width: 50%;
+    background: #cdd1ba;
+    text-align: center;
+ margin-left: 20px;
+}
+
+.month ul {
+    margin: 10px;
+ padding: 0;
+
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  margin-left: 18px;
+ }
+
+.month .prev {
+    float: left;
+ margin: 
+    padding-top: 10px;
+
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+ width:50%;
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+  margin-left: 20px;
+}
+
+.weekdays li {
+
+    display: inline-block;
+    width: 11%;
+    color: #666;
+    text-align: center;
+  margin-left: 15px;
+}
+
+.days {
+  width: 50%;
+    padding: 5px 0;
+    background: #eee;
+   margin-left: 20px;
+ 
+}
+
+.days li {
+    list-style-type:none;
+    display: inline-flex;
+    width: 10%;
+    text-align: center;
+ margin-left: 25px;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #cdd1ba;
+    color: white !important
+}
+ 
+ 
+
+ footer{
+  margin: 10px;
+  text-align: center;
+  width: 100%;
+  background-color: #cdd1ba;
+ }
+ footer img{
+  width: 4%;
+ }
+ 
+ 
+ 
+}
+ 
+
+
+
+/* Add media queries for smaller screens */
+
+@media screen and (max-width:600px) {
+    .weekdays li, .days li {width:3.1%;}
+ 
+ .month {
+
+    padding: 35px 15px;
+    width: 40%;
+    background: #cdd1ba;
+    text-align: center;
+  margin-left: 21px; 
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.month .prev {
+    float: left;
+margin: 
+    padding-top: 2px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 2px;
+}
+
+.weekdays {
+ width: 40%;
+ margin-left: 20px;
+    padding: 8px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+
+    display: inline-block;
+    width: 13%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+
+  width: 40%;
+    padding: 3px 0;
+    background: #eee;
+ margin-left: 20px;
+}
+
+.days li {
+    list-style-type:none;
+    display: inline-flex;
+    width: 15%;
+    text-align: center;
+ margin-left: 3px;
+    margin-bottom: 2px;
+    font-size:12px;
+    color: #777;
+}
+
+.days li .active {
+    padding:2px;
+    background: #cdd1ba;
+    color: white !important
+}
+ 
+ 
+ /*kalender til mobil*/
+ 
+ @media (max-width: 600px) {
+  .flex-grid {
+    display: block;
+  }
+}
+ 
+ 
+ 
+ /*footer til mobil*/
+    footer img {
+        width: 50px;
+        margin: 0 8px;
+    }
+
+    footer {
+     width: 50%;
+        margin-top: 10px;
+        text-align: center;
+     background-color:#cdd1ba;
+}
+    
