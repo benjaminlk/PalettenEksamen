@@ -4,33 +4,105 @@
 	<meta charset="utf-8" name="viewport" content="width=device-width, initiale-scale=1.0">
 	<title>New Project</title>
 	<link rel="stylesheet" type="text/css" href="css/stylejane.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
     <script type="text/javascript" src="js/galleri.js"></script>
  
  
 </head>
 <body>
   <header>
-    <img id="logomobil" src="images/paletten%20logo4.png">
-      <img id="logoweb" src="images/paletten%20logo.jpg">
-      <img id="forsidebillede" src="images/leg6.png">
-      <nav>
-                    <ul class="menumobil menuweb">
-                    <li><a href="index.html">HJEM</a></li>    
-                    <li><a href="omos.html">OM OS</a></li>
-                    <li><a href="kalender.html">KALENDER</a></li>
-                    <li class="active"><a href="galleri.html">GALLERI</a></li>
-                    <li><a href="nyeforaeldre.html">NYE FORÆLDRE</a></li>
-                    <li><a href="kontakt.html">KONTAKT</a></li>
-                </ul>
-      </nav>
-      
+        <img id="logomobil" src="images/paletten%20logo4.png">
+        <img id="logoweb" src="images/paletten%20logo.jpg">
+        <img id="forsidebillede" src="images/leg6.png">
+        <nav>
+            <ul class="menumobil menuweb">
+                <li class="active notmobil"><a href="index.html">HJEM</a></li>
+                <li><a href="omos.html">OM OS</a></li>
+                <li><a href="kalender.html">KALENDER</a></li>
+                <li><a href="galleri.html">GALLERI</a></li>
+                <li><a href="nyeforaeldre.html">NYE FORÆLDRE</a></li>
+                <li id="notweb"><a href="kontakt.html">KONTAKT</a></li>
+            </ul>
+        </nav>
+
     </header>
  
+ 
 
-    
-    <footer>
+<div class="frontfoto">
+  <img class="mySlides" src="images/elva.png">
+  <img class="mySlides" src="images/freya.png" >
+  <img class="mySlides" src="images/leg5.png">
+ <img class="mySlides" src="images/pirat.png">
+ <img class="mySlides" src="images/fisk.png">
+ <img class="mySlides" src="images/tr%C3%A6.png">
+ 
+
+  <div class="row">
+    <div class="colom">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="images/elva.png" onclick="currentDiv(1)">
+    </div>
+    <div class="colom">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="images/freya.png" onclick="currentDiv(2)">
+    </div>
+    <div class="colom">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="images/leg5.png" onclick="currentDiv(3)">
+    </div>
+    <div class="colom">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="images/pirat.png" onclick="currentDiv(4)">
+    </div>
+   <div class="colom">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="images/fisk.png" onclick="currentDiv(5)">
+    </div>
+   <div class="colom">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="images/tr%C3%A6.png" onclick="currentDiv(6)">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace("opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += "opacity-off";
+}
+</script>
+ 
+ <footer>
+        <section class="flex-container">
+        <div class="lefttext">
+        <p>DII PALETTEN</p>
+        <p>KLOKKESKOVVEJ 9</p>
+        <p>8200 VIBY J</p>
+        <p>TLF: XX XX XX XX</p></div>
+        <div class="centertext">
+        <p>MAIL: mail@mail.com</p></div>
+            <div class="fbintra">
         <img src="images/facebook.png">
         <img src="images/intra.jpg">
+                </div>
+        </section>
     </footer>
 </body>
 </html>

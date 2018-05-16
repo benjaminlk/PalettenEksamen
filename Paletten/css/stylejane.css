@@ -121,7 +121,7 @@ body {
  
  #kalenderwrapper{
   display: flex;
-  width: 100%;
+  width:100%;
   height: auto;
   background-color: ghostwhite;
  }
@@ -252,6 +252,30 @@ body {
 
 /* GALLERI */
 
+.mySlides {display:none}
+.demo {cursor:pointer}
+
+.frontfoto{
+ width: 60%;
+ margin-left: 200px;
+ margin-top: 150px;
+}
+
+.mySlides{
+ width: 100%;
+ margin-bottom: 30px;
+}
+
+.colum{
+ max-width: 30%;
+}
+.colom img{
+ border: solid;
+ width: 25%;
+ margin-bottom: 30px;
+ float: left;
+ 
+}
 
  footer{
   margin: 10px;
