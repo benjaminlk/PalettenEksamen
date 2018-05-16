@@ -116,34 +116,66 @@ body {
         border-width: 1.5px;
         border-color: #696969;
     }
-
+ 
+  /*KALENDER*/
+ 
+ #kalenderwrapper{
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: ghostwhite;
+ }
+ 
  /*container til kalender*/
  
  
  .container {
-  display: flex;
+  display:flex;
   justify-content: space-between;
-  background-color: darkgray;
+  background-color: slategrey;
   width: 100%;
+   
  
+}
+ 
+ .containertwo {
+  display:flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  width: 60%;
+  margin-top: 30px;
+  padding-top: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
   
-}
-.col {
-  flex: 1;
-
-}
+ }
+  
  
+ .containertree {
+  display:flex;
+  justify-content: space-between;
+  background-color: slategrey;
+  width: 40%;
+  margin-top: 30px;
+  padding-top: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+  
+  
+ }
+  
  
 /* kalender */
  
  
-
 .month {
     padding: 70px 25px;
-    width: 50%;
+    width: 90%;
     background: #cdd1ba;
     text-align: center;
- margin-left: 20px;
+ margin-left: 25px;
+ margin-top: 80px;
 }
 
 .month ul {
@@ -156,8 +188,8 @@ body {
     color: white;
     font-size: 20px;
     text-transform: uppercase;
-    letter-spacing: 3px;
-  margin-left: 18px;
+    letter-spacing: 2px;
+  margin-left: 10px;
  }
 
 .month .prev {
@@ -173,34 +205,35 @@ body {
 }
 
 .weekdays {
- width:50%;
+ width:90%;
     margin: 0;
     padding: 10px 0;
     background-color: #ddd;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 .weekdays li {
 
     display: inline-block;
-    width: 11%;
+    width: 10%;
     color: #666;
     text-align: center;
-  margin-left: 15px;
+  margin-left: 12px;
 }
 
 .days {
-  width: 50%;
+  width:90%;
     padding: 5px 0;
     background: #eee;
-   margin-left: 20px;
+   margin-left: 25px;
+ margin-bottom: 20px;
  
 }
 
 .days li {
     list-style-type:none;
     display: inline-flex;
-    width: 10%;
+    width: 8%;
     text-align: center;
  margin-left: 25px;
     margin-bottom: 5px;
@@ -214,6 +247,7 @@ body {
     color: white !important
 }
  
+}
  
 
  footer{
@@ -228,7 +262,6 @@ body {
  
  
  
-}
  
 
 
@@ -241,7 +274,7 @@ body {
  .month {
 
     padding: 35px 15px;
-    width: 40%;
+    width: 50%;
     background: #cdd1ba;
     text-align: center;
   margin-left: 21px; 
@@ -271,7 +304,7 @@ margin:
 }
 
 .weekdays {
- width: 40%;
+ width: 50%;
  margin-left: 20px;
     padding: 8px 0;
     background-color: #ddd;
