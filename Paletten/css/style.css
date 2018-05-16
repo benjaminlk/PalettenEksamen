@@ -31,23 +31,23 @@ footer {
 /*CSS til mobilversion*/
 
 @media only screen and (max-width: 600px) {
-    
+
     /*vis ikke på mobil*/
-    #logoweb{
-        display:none;
+    #logoweb {
+        display: none;
     }
-    
-    #slideshow{
-        display:none;
+
+    #slideshow {
+        display: none;
     }
-    
-    .lefttext{
-        display:none;
+
+    .lefttext {
+        display: none;
     }
-    .centertext{
-        display:none;
+    .centertext {
+        display: none;
     }
-    
+
     /*logo til mobil*/
     #logomobil {
         width: 100px;
@@ -70,9 +70,9 @@ footer {
     .nomenu {
         display: none;
     }
-    
-    .notmobil{
-        display:none;
+
+    .notmobil {
+        display: none;
     }
 
     /*menu til mobil*/
@@ -173,9 +173,9 @@ footer {
     li a {
         color: #696969;
     }
-    
-    #notweb{
-        display:none;
+
+    #notweb {
+        display: none;
     }
 
     .active {
@@ -183,8 +183,8 @@ footer {
         border-width: 1.5px;
         border-color: #696969;
     }
-    
-    
+
+
     /*slideshow til web*/
     #slideshow-wrapper {
         width: 740px;
@@ -193,7 +193,7 @@ footer {
     }
 
     #slideshow {
-        margin-top:100px;
+        margin-top: 100px;
         margin-bottom: 5px;
         width: 740px;
         height: 300px;
@@ -215,34 +215,34 @@ footer {
         height: 12px;
         border-radius: 50px;
     }
-    
+
     /*footer til web*/
-        footer img {
+    footer img {
         width: 50px;
         margin: 0 8px;
     }
 
     footer {
-        padding-top:10px;
+        padding-top: 10px;
     }
-    
-    .flex-container{
-        display:flex;
+
+    .flex-container {
+        display: flex;
         justify-content: space-around;
     }
-    
-    .lefttext p{
-           font-size:0.6em;
-            line-height:0.7em
-        }
-    
-       .centertext{
-           font-size:0.8em;
-           margin-top:10px;
-           
+
+    .lefttext p {
+        font-size: 0.6em;
+        line-height: 0.7em
     }
-    
-    .fbintra{
-        margin-top:10px;
+
+    .centertext {
+        font-size: 0.8em;
+        margin-top: 10px;
+
+    }
+
+    .fbintra {
+        margin-top: 10px;
     }
 }
