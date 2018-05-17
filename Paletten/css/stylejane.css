@@ -23,7 +23,6 @@ h1, h2{
 }
 
 
-
     /*vis ikke menu på andre sider end index*/
     .nomenu {
         display: none;
@@ -253,15 +252,13 @@ h1, h2{
     color: white !important
 }
  
-}
+
  
 
 /* GALLERI */
 
-
 .galleri{
  margin: 10px 50px;
- margin-left: 120px;
  
 }
 
@@ -269,7 +266,7 @@ h1, h2{
  width: 230px;
  padding: 5px;
  filter: grayscale(100%);
- transition: 2s;
+ transition: 1s;
 }
 
 .gallery img:hover{
@@ -279,6 +276,7 @@ h1, h2{
 
 
 
+ 
 
 
 /* Add media queries for smaller screens */
@@ -369,16 +367,4 @@ margin:
  
  
  
- /*footer til mobil*/
-    footer img {
-        width: 50px;
-        margin: 0 8px;
-    }
-
-    footer {
-     width: 50%;
-        margin-top: 10px;
-        text-align: center;
-     background-color:#cdd1ba;
-}
-    
+ 
