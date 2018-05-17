@@ -258,7 +258,7 @@ h1, h2{
 /* GALLERI */
 
 .galleri{
- margin: 10px 50px;
+ margin: 10px 200px;
  
 }
 
@@ -266,7 +266,7 @@ h1, h2{
  width: 230px;
  padding: 5px;
  filter: grayscale(100%);
- transition: 1s;
+ transition: 2s;
 }
 
 .gallery img:hover{
@@ -275,9 +275,41 @@ h1, h2{
 }
 
 
-
+ /*OM OS  */
  
-
+ #omwrapper{
+  display: flex;
+  width: auto;
+  height: auto;
+  margin-top: 40px;
+  background-color: ghostwhite;
+ }
+ 
+ .bok{
+  display:flex;
+        justify-content: space-around;
+        margin-top:100px;
+        margin-bottom:40px;
+       margin-left: 70px;
+        margin-right:10%;
+    }
+ 
+ .bok1{
+        border:2px solid #696969;
+justify-content: space-between;
+        width:400px;
+        height:500px;
+  padding: 3px 20px;
+ 
+        background-color:#f5f5f5;
+        box-shadow: 3px 3px 3px #bfbcbc;
+    }
+ 
+ 
+ 
+ 
+ 
+ 
 
 /* Add media queries for smaller screens */
 
