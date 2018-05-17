@@ -24,8 +24,8 @@ body {
 
 footer {
     background-color: #cdd1ba;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 
 /*CSS til mobilversion*/
@@ -216,6 +216,52 @@ footer {
         border-radius: 50px;
     }
 
+    .bokse{
+        display:flex;
+        justify-content: space-around;
+        margin-top:100px;
+        margin-bottom:40px;
+        margin-left:10%;
+        margin-right:10%;
+    }
+    
+    .bokse h2{
+        font-size:1em;
+        text-align:center;
+        line-height:0.5em;
+    }
+    
+    .bokse p{
+        margin-left:10px;
+        font-size:0.9em;
+    }
+    
+    .bokse a{
+        width:100px;
+        text-decoration:none;
+        font-size:0.8em;
+        margin-left:15px;
+    }
+    .boks1{
+        border:2px solid #696969;
+        width:300px;
+        height:210px;
+        background-color:#f5f5f5;
+        box-shadow: 3px 3px 3px #bfbcbc;
+    }
+    
+    .tekstogikon{
+        display:flex;
+        justify-content: space-around;
+    }
+    
+    .boks1 img{
+        margin-top:auto;
+        margin-bottom: auto;
+        margin-left:5px;
+        margin-right:5px;
+    }
+    
     /*footer til web*/
     footer img {
         width: 50px;
