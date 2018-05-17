@@ -16,10 +16,11 @@ body {
 }
 
 
-h1, h2{
+h1, h2, h3{
  text-align: center;
  color: black;
- margin: 30px 0 50px;
+ 
+
 }
 
 
@@ -315,7 +316,43 @@ justify-content: space-between;
         box-shadow: 3px 3px 3px #bfbcbc;
     }
  
+  /*PERSONALE  */
  
+ #perwrapper{
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  width: auto;
+  height: auto;
+  background-color: ghostwhite;
+ }
+ 
+ .perbok{
+  display:flex;
+        justify-content: space-around;
+  margin-top:20px;
+        margin-bottom:800px;
+    
+    }
+ 
+ .bok2{
+ 
+text-align: justify;
+        border:2px solid #696969;
+justify-content: space-between;
+        width:25%;
+        padding: 4px 1px;
+  background-color:#f5f5f5;
+        box-shadow: 3px 3px 3px #bfbcbc;
+ }
+ 
+ .bok2 img{
+  text-align: center;
+  width: 100;
+ }
+ 
+
 
 /* Add media queries for smaller screens */
 
