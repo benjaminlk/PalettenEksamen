@@ -16,6 +16,12 @@ body {
 }
 
 
+h1, h2{
+ text-align: center;
+ color: black;
+ margin: 30px 0 50px;
+}
+
 
 
     /*vis ikke menu på andre sider end index*/
@@ -252,28 +258,28 @@ body {
 
 /* GALLERI */
 
-.mySlides {display:none}
-.demo {cursor:pointer}
 
-.frontfoto{
- width: 60%;
- margin-left: 200px;
- margin-top: 150px;
+
+
+.galleri{
+ margin: 10px 50px;
+ 
 }
 
-.mySlides{
- width: 100%;
- margin-bottom: 30px;
+.galleri img{
+ width: 230px;
+ padding: 5px;
+ filter: grayscale(100%);
+ transition: 1s;
 }
 
-.colum{
- max-width: 30%;
+.gallery img:hover{
+ filter: grayscale(0);
+ transform: scale(1.1);
 }
-.colom img{
- border: solid;
- width: 25%;
- margin-bottom: 30px;
- float: left;
+
+
+
  
 }
 
@@ -284,7 +290,9 @@ body {
   background-color: #cdd1ba;
  }
  footer img{
-  width: 4%;
+  width: 10%;
+  float: left;
+   
  }
  
  
