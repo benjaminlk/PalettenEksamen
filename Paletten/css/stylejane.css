@@ -259,10 +259,9 @@ h1, h2{
 /* GALLERI */
 
 
-
-
 .galleri{
  margin: 10px 50px;
+ margin-left: 120px;
  
 }
 
@@ -270,7 +269,7 @@ h1, h2{
  width: 230px;
  padding: 5px;
  filter: grayscale(100%);
- transition: 1s;
+ transition: 2s;
 }
 
 .gallery img:hover{
@@ -279,25 +278,6 @@ h1, h2{
 }
 
 
-
- 
-}
-
- footer{
-  margin: 10px;
-  text-align: center;
-  width: 100%;
-  background-color: #cdd1ba;
- }
- footer img{
-  width: 10%;
-  float: left;
-   
- }
- 
- 
- 
- 
 
 
 
