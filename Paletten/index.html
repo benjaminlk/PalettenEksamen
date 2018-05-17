@@ -11,13 +11,20 @@
 
 <body>
     <header>
-        <img id="logomobil" src="images/paletten%20logo4.png">
-        <img id="logoweb" src="images/paletten%20logo.jpg">
+        <a href="index.html"><img id="logomobil" src="images/paletten%20logo4.png"></a>
+        <a href="index.html"><img id="logoweb" src="images/paletten%20logo.jpg"></a>
         <img id="forsidebillede" src="images/leg6.png">
         <nav>
             <ul class="menumobil menuweb">
                 <li class="active notmobil"><a href="index.html">HJEM</a></li>
-                <li><a href="omos.html">OM OS</a></li>
+                <div class="dropdown notmobil">
+                    <li class="dropbtn">OM OS</li>
+                <div class="dropdown-content">
+                    <a href="#">link 1</a>
+                    <a href="#">link 2</a>
+                    <a href="#">link 3</a>
+                    </div></div>
+                <li id="notweb"><a href="omos.html">OM OS</a></li>
                 <li><a href="kalender.html">KALENDER</a></li>
                 <li><a href="galleri.html">GALLERI</a></li>
                 <li><a href="nyeforaeldre.html">NYE FORÆLDRE</a></li>
@@ -43,7 +50,7 @@
             <div id="circle5" class="circle"></div>
         </div>
     </div>
-<div class="bokse">
+<div class="bokse notmobil">
     <div class="boks1">
      <h2>DII Paletten Institution</h2>
         <div class="tekstogikon"><p>Paletten har både vuggestue og børnehave med i alt 49 børn. Huset er inddelt i 3 stuer Rød - Grøn og Blå stue. Vi elsker at være kreative og laver hele tiden noget nyt og spændende.</p>
@@ -78,6 +85,7 @@
                 </div>
         </div>
     </footer>
+    
 </body>
 
 </html>
