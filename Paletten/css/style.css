@@ -28,11 +28,12 @@ footer {
     grid-row-end: 4;
 }
 
-/*h2 tekst*/
-h1, h2, h3{
+/*tekst til pædagogik*/
+
+.paedatekst h1, h2, h3{
     color:#0054ff;
 }
-h2, h3{
+.paedatekst h2, h3{
     margin-top:30px;
     line-height:0;
 }
