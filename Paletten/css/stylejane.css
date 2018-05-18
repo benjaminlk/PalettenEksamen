@@ -255,15 +255,18 @@ h1, h2, h3{
 
 
 /* GALLERI */
-
+ 
 .galleri{
- margin: 10px 200px;
+
+ text-align: center;
+ margin: 120px 5px;
  
 }
 
 .galleri img{
+
  width: 230px;
- padding: 5px;
+ padding: 3px;
  filter: grayscale(100%);
  transition: 2s;
 }
