@@ -392,15 +392,10 @@ background-color: white;
   margin-right: 20px;
   display: flex;
   width: 710px;
-  height: 1200px;
+  height: auto;
   background-color: lightgray;
  }
   
- 
- 
- 
-
- 
  
 
 /* Add media queries for smaller screens */
