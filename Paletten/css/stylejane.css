@@ -18,8 +18,7 @@ body {
 
 h1, h2, h3{
  text-align: center;
- color: black;
- 
+ color:black;
 
 }
 
@@ -310,7 +309,7 @@ background-color: #ecf5d4;
         border:2px solid #696969;
 justify-content: space-between;
         width:400px;
-        height:450px;
+        height:300px;
   padding: 3px 20px;
   background-color:#f5f5f5;
         box-shadow: 3px 3px 3px #bfbcbc;
@@ -322,6 +321,7 @@ justify-content: space-between;
  
  #perwrapper{
   margin-top: 10px;
+  margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
   display: flex;
@@ -340,7 +340,7 @@ justify-content: space-between;
  
  .bok2{
  
-text-align: justify;
+text-align: center;
         border:2px solid #696969;
 justify-content: space-between;
         width:25%;
@@ -352,17 +352,18 @@ justify-content: space-between;
  .bok2 img{
   text-align: center;
   width: 100;
-  margin: 20px;
+  margin: 5px;
  }
  
 
  
    /*ÅBNINGSTIDER  */
  
- #aatekst{
+ .aatekst{
   
 text-align: center;
  font-family: fantasy;
+  margin-top: 50px;
 margin-bottom: 20px;
 background-color: white;
  
@@ -373,27 +374,27 @@ background-color: white;
  
  .aawrapper{
 
-  padding:50px 20px;
-  margin-top: 40px;
-  margin-left: 80px;
+  padding:40px 290px;
+ margin-left: 120px;
  display: flex;
   width: 710px;
-  height: 300px;
-  background-color: lightgray;
+  height: 410px;
+  background-color: lightblue;
  }
   
  
  
  .aawrappertwo{
 
+  text-align: center;
   padding: 50px 10px;
   margin-top: 40px;
-  margin-left: 80px;
+  margin-left: 125px;
   margin-right: 20px;
   display: flex;
-  width: 710px;
+  width: 700px;
   height: auto;
-  background-color: lightgray;
+  background-color: white;
  }
   
  
