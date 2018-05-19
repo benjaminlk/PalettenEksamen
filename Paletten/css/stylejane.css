@@ -363,12 +363,35 @@ justify-content: space-between;
  
    /*ÅBNINGSTIDER  */
  
+  /*pil der bevæger uendeligt sig op og ned */
+ 
+ .pil{
+  width: 50px;
+margin-left: 300px;
+  
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 1.5s infinite;
+}
+ 
+ 
+ @-webkit-keyframes mymove {
+    from {left: 0px; top: -30px;}
+    to {left: 0px; top: 30px;}
+}
+
+ .pil img{
+  
+  width: 100%;
+ }
+ 
+ 
  .aatekst{
   
 text-align: center;
  font-family: fantasy;
   margin-top: 50px;
-margin-bottom: 20px;
+margin-bottom: 1px;
 background-color: white;
  
 }
@@ -391,8 +414,8 @@ background-color: white;
  .aawrappertwo{
 
   text-align: center;
-  padding: 50px 10px;
-  margin-top: 40px;
+  padding: 10px 10px;
+  margin-top: 20px;
   margin-left: 125px;
   margin-right: 20px;
   display: flex;
