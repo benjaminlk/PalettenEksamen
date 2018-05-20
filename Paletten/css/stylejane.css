@@ -123,6 +123,11 @@ h1, h2, h3{
  
   /*KALENDER*/
  
+ .col{
+  padding-left:30px;
+  padding-right: 10px;
+ }
+ 
  #kalenderwrapper{
   display: flex;
   width:100%;
@@ -134,10 +139,13 @@ h1, h2, h3{
  
  
  .container {
-  display:flex;
+
+  display:flex; 
   justify-content: space-between;
   background-color: slategrey;
   width: 100%;
+  margin-top:100px;
+  padding-top: 130px;
    
  
 }
@@ -146,29 +154,31 @@ h1, h2, h3{
   display:flex;
   justify-content: space-between;
   background-color: whitesmoke;
-  width: 60%;
-  margin-top: 30px;
-  padding-top: 200px;
+   font-family: fantasy;
+  line-height:1.5;
+  width: 40%;
+  margin-top: 80px;
+  padding-top: 80px;
   padding-left: 20px;
   padding-right: 20px;
   
  }
-  
  
  .containertree {
   display:flex;
   justify-content: space-between;
-  background-color: slategrey;
-  width: 40%;
-  margin-top: 30px;
-  padding-top: 100px;
-  padding-left: 10px;
-  padding-right: 10px;
+ background-color: slategrey;
+  line-height: 1.5;
+  width:55%;
+  margin-top:100px;
+  margin-bottom: 10px;
+  padding-top: 60px;
+  padding-left: 20px;
   
+
   
-  
- }
-  
+  }
+ 
  
 /* kalender  */
  
@@ -279,7 +289,7 @@ h1, h2, h3{
 
  /*OM OS  - Stuerne */
  
-  /*tekst på OM OS siden*/
+  /*tekst på Stuerne */
  
 #omtekst{
  
@@ -380,7 +390,7 @@ img:hover {
 margin-left: 300px;
   
     position: relative;
-    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation: mymove 5s infinite; 
     animation: mymove 1.5s infinite;
 }
  
@@ -454,12 +464,17 @@ padding-left:40px;
 
 /* Add media queries for smaller screens */
 
-@media screen and (max-width:600px) {
+
+@media screen and (max-width:600px){
     .weekdays li, .days li {width:3.1%;}
  
+ /*kalender til mobil*/
+ 
+ @media (max-width: 600px) {
+  .flex-grid 
+ 
  .month {
-
-    padding: 35px 15px;
+padding: 35px 15px;
     width: 50%;
     background: #cdd1ba;
     text-align: center;
@@ -467,12 +482,14 @@ padding-left:40px;
 }
 
 .month ul {
+ text-align: center;
     margin: 0;
     padding: 0;
+
 }
 
 .month ul li {
-    color: white;
+    color: black;
     font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -490,23 +507,23 @@ margin:
 }
 
 .weekdays {
- width: 50%;
+ width: 90%;
  margin-left: 20px;
-    padding: 8px 0;
+    padding: 2px 0;
     background-color: #ddd;
 }
 
 .weekdays li {
 
     display: inline-block;
-    width: 13%;
+    width: 12%;
     color: #666;
     text-align: center;
 }
 
 .days {
 
-  width: 40%;
+  width: 90%;
     padding: 3px 0;
     background: #eee;
  margin-left: 20px;
@@ -515,7 +532,7 @@ margin:
 .days li {
     list-style-type:none;
     display: inline-flex;
-    width: 15%;
+    width: 12%;
     text-align: center;
  margin-left: 3px;
     margin-bottom: 2px;
@@ -524,18 +541,16 @@ margin:
 }
 
 .days li .active {
-    padding:2px;
+    padding:3px;
     background: #cdd1ba;
     color: white !important
 }
  
- 
- /*kalender til mobil*/
- 
- @media (max-width: 600px) {
-  .flex-grid {
-    display: block;
+ display: block;
   }
+
+ 
+ 
 }
  
  /*åbningstider til mobil*/
@@ -561,11 +576,47 @@ margin:
   
 }
   
+  /*åbningstider til mobil*/
   
+ .pil{
+  display: none;
+ }
  
  
+ /*Kalender til mobil*/
+
+.container {
+ border: solid 1px;
+ margin-top: 30px;
+ margin-bottom: 10px;
+}
  
+ .col{
+  margin-top: 20px;
+  margin-bottom: auto;
+   padding-left:30px;
+  padding-right: 10px;
+  
+ }
  
+.containertwo {
+ border: solid 1px;
+  margin-bottom: 10px;
+ font-family: fantasy; 
+}
  
- 
- 
+.containertree{
+  border: solid 1px;
+padding-bottom: 10px;
+}
+
+
+.days li {
+    list-style-type:none;
+    display: inline-flex;
+    width: 10%;
+    text-align: center;
+ margin-left: 5px;
+    margin-bottom: 5px;
+   color: #777;
+}
