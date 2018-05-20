@@ -135,7 +135,7 @@ h1, h2, h3{
   background-color: ghostwhite;
  }
  
- /*container til kalender*/
+ /*bokse til kalender siden*/
  
  
  .container {
@@ -161,6 +161,7 @@ h1, h2, h3{
   padding-top: 80px;
   padding-left: 20px;
   padding-right: 20px;
+border display: none;
   
  }
  
@@ -268,13 +269,16 @@ h1, h2, h3{
 .galleri{
 
  text-align: center;
- margin: 120px 5px;
+ margin-top: 100px;
+padding-top: 20px;
+ padding-bottom: 30px;
   
 }
 
 .galleri img{
 
- width: 230px;
+ width: 17%;
+margin-top: 5px;
  padding: 3px;
  filter: grayscale(100%);
  transition: 2s;
@@ -462,7 +466,7 @@ padding-left:40px;
 
 
 
-/* Add media queries for smaller screens */
+/* RESPONSIVE MOBIL SIDER*/
 
 
 @media screen and (max-width:600px){
@@ -511,6 +515,7 @@ margin:
  margin-left: 20px;
     padding: 2px 0;
     background-color: #ddd;
+  margin-left: 5px;
 }
 
 .weekdays li {
@@ -519,6 +524,8 @@ margin:
     width: 12%;
     color: #666;
     text-align: center;
+    margin-left: 2px;
+
 }
 
 .days {
@@ -526,18 +533,20 @@ margin:
   width: 90%;
     padding: 3px 0;
     background: #eee;
- margin-left: 20px;
-}
+ margin-left: 5px;
+  }
 
-.days li {
+
+
+  
+  .days li {
     list-style-type:none;
     display: inline-flex;
-    width: 12%;
+    width: 10%;
     text-align: center;
- margin-left: 3px;
-    margin-bottom: 2px;
-    font-size:12px;
-    color: #777;
+ margin-left: 6px;
+    margin-bottom: 5px;
+   color: #777;
 }
 
 .days li .active {
@@ -545,13 +554,38 @@ margin:
     background: #cdd1ba;
     color: white !important
 }
+  
+  
  
- display: block;
-  }
+ 
 
- 
- 
+/*bokse til Kalendersiden til mobil*/
+
+.container {
+ border: solid 1px;
+ margin-top: 30px;
+ margin-bottom: 10px;
 }
+ 
+ .col{
+  margin-top: 20px;
+  margin-bottom: auto;
+   padding-left:30px;
+  padding-right: 10px;
+  
+ }
+ 
+.containertwo {
+ border: solid 1px;
+  margin-bottom: 10px;
+ font-family: fantasy; 
+}
+ 
+.containertree{
+  border: solid 1px;
+padding-bottom: 10px;
+}
+
  
  /*åbningstider til mobil*/
  
@@ -583,40 +617,32 @@ margin:
  }
  
  
- /*Kalender til mobil*/
-
-.container {
- border: solid 1px;
- margin-top: 30px;
- margin-bottom: 10px;
 }
+
  
- .col{
-  margin-top: 20px;
-  margin-bottom: auto;
-   padding-left:30px;
-  padding-right: 10px;
+  /*Galleri siden til mobil*/
+ 
+
+.galleri{
+
+ text-align: center;
+ margin-top: 10px;
+padding-top: 40px;
+ padding-bottom: 30px;
   
- }
- 
-.containertwo {
- border: solid 1px;
-  margin-bottom: 10px;
- font-family: fantasy; 
-}
- 
-.containertree{
-  border: solid 1px;
-padding-bottom: 10px;
 }
 
+.galleri img{
 
-.days li {
-    list-style-type:none;
-    display: inline-flex;
-    width: 10%;
-    text-align: center;
- margin-left: 5px;
-    margin-bottom: 5px;
-   color: #777;
+ width: 30%;
+margin-top: 5px;
+ padding: 3px;
+
 }
+
+ 
+
+ 
+display: block;
+  } 
+
