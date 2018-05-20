@@ -157,7 +157,7 @@ h1, h2, h3{
    font-family: fantasy;
   font-size: 1.1em;
   line-height:1.3;
-  width: 46%;
+  width: 47%;
   margin-top: 50px;
   padding-top: 280px;
   padding-left: 20px;
@@ -347,14 +347,6 @@ justify-content: space-between;
  }
  
 
- .perbok{
-  display:flex;
-        justify-content: space-around;
-  margin-top:20px;
-        margin-bottom:800px;
-    
-    }
- 
  .bok2{
  
 text-align: center;
@@ -644,6 +636,16 @@ margin-top: 5px;
 
 }
 
+ 
+  /*Personale siden til mobil*/
+ .bok2 img{
+  text-align: center;
+  width: 50%;
+  margin-left: 90px;
+ 
+
+  
+ }
  
 
  
