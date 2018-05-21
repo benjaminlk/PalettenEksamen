@@ -4,6 +4,7 @@
 
 html,
 body {
+    font-family:rubik;
     margin: 0;
     padding: 0;
 }
@@ -13,7 +14,6 @@ html {
 }
 
 body {
-    font-family: Open Sans;
     background-color: #ecf5d4;
     min-height: 100%;
     display: grid;
@@ -28,10 +28,14 @@ footer {
     grid-row-end: 4;
 }
 
-/*tekst til pædagogik*/
+/*tekst til undersider*/
+
+.paedatekst h1{
+    text-align:center;
+}
 
 .paedatekst h1, h2, h3{
-    color:#0054ff;
+    color:#ecf5d4;
 }
 .paedatekst h2, h3{
     margin-top:30px;
@@ -93,6 +97,7 @@ h3{
 
     /*menu til mobil*/
     .menumobil {
+        font-family: Open Sans;
         text-align: center;
         list-style-type: none;
         padding: 0px;
@@ -157,6 +162,7 @@ h3{
 
     /*Menu til web*/
     .menuweb {
+        font-family: Open Sans;
         float: right;
         list-style-type: none;
         margin: 40px 5% 0 0;
@@ -353,18 +359,28 @@ h3{
         margin-top: 10px;
     }
     
+    /*tekst til kost og pædagogik*/
     .paedawrapper{
         margin-top:150px;
-        margin-left:15%;
-        margin-right:15%;
+        margin-bottom:35px;
+        margin-left:18%;
+        margin-right:18%;
         background-color:#ffffff;
     }
     .paedatekst{
-        margin-left:5px;
-        margin-right:30%;
+        margin-left:12%;
+        margin-right:12%;
     }
     .paedatekst a{
         text-decoration:none;
         line-height:25px;
+    }
+    .paedatekst p{
+        line-height:1.6em;
+    }
+    .paedatekst img{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
     }
 }
