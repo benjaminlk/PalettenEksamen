@@ -4,7 +4,7 @@
 
 html,
 body {
-    font-family:rubik;
+    font-family: rubik;
     margin: 0;
     padding: 0;
 }
@@ -30,33 +30,40 @@ footer {
 
 /*tekst til undersider*/
 
-.paedatekst h1{
-    text-align:center;
+.paedatekst h1 {
+    text-align: center;
 }
 
-.paedatekst h1, h2, h3{
-    color:#ecf5d4;
+.paedatekst h1,
+h2,
+h3 {
+    color: #ecf5d4;
 }
-.paedatekst h2, h3{
-    margin-top:30px;
-    line-height:0;
+
+.paedatekst h2,
+h3 {
+    margin-top: 30px;
+    line-height: 0;
 }
-h2{
-    font-size:1.3em;
+
+h2 {
+    font-size: 1.3em;
 }
-h3{
-    font-size:1.1em;
+
+h3 {
+    font-size: 1.1em;
 }
 
 /*circle til slideshow*/
-    .circle {
-        margin-right: 15px;
-        display: inline-block;
-        background-color: lightgrey;
-        width: 12px;
-        height: 12px;
-        border-radius: 50px;
-    }
+
+.circle {
+    margin-right: 15px;
+    display: inline-block;
+    background-color: lightgrey;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+}
 
 /*CSS til mobilversion*/
 
@@ -78,14 +85,20 @@ h3{
         display: none;
     }
 
-    
+
     /*tilbage pil*/
-    #backarrow{
-        float:left;
-        width:30px;
-        background-color:#667e90;
+    #backarrow {
+        float: left;
+        width: 30px;
+        background-color: #667e90;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin:5px;
+
     }
-    
+
     /*logo til mobil*/
     #logomobil {
         width: 100px;
@@ -94,8 +107,8 @@ h3{
         margin-right: auto;
         background-color: white;
     }
-    
-        /*slideshow til mobil*/
+
+    /*slideshow til mobil*/
     #slideshow-wrappermobil {
         width: 95%;
         height: 200px;
@@ -107,14 +120,14 @@ h3{
         width: 100%;
         height: 200px;
         overflow: hidden;
-        white-space:nowrap;
+        white-space: nowrap;
     }
 
     #slideshowmobil img {
         display: inline-block;
         width: 100%;
         height: 100%;
-        object-fit:cover;
+        object-fit: cover;
     }
 
     /*forside billede*/
@@ -186,19 +199,19 @@ h3{
         display: none;
     }
 
-    #backarrow{
-        display:none;
+    #backarrow {
+        display: none;
     }
-    #slideshow-wrappermobil{
-        display:none;
+    #slideshow-wrappermobil {
+        display: none;
     }
     header {
         background-color: #ffffff;
         width: 100%;
-        position:absolute;
+        position: absolute;
     }
-    .position{
-        margin-top:110px;
+    .position {
+        margin-top: 110px;
     }
     /*logo til web*/
     #logoweb {
@@ -231,7 +244,7 @@ h3{
 
     .menuweb li a {
         display: inline-block;
-        
+
         padding: 5px 18px;
         text-decoration: none;
     }
@@ -311,21 +324,21 @@ h3{
         width: 100%;
         height: 400px;
         overflow: hidden;
-        white-space:nowrap;
+        white-space: nowrap;
     }
 
     #slideshow img {
         display: inline-block;
         width: 100%;
         height: 100%;
-        object-fit:cover;
+        object-fit: cover;
     }
 
     /*de 3 bokse til forsiden*/
     .bokse {
         display: flex;
         justify-content: space-around;
-        
+
         margin-bottom: 40px;
         margin-left: 10%;
         margin-right: 10%;
@@ -397,29 +410,29 @@ h3{
     .fbintra {
         margin-top: 10px;
     }
-    
+
     /*tekst til kost og pædagogik*/
-    .paedawrapper{
-        margin-top:150px;
-        margin-bottom:34px;
-        margin-left:18%;
-        margin-right:18%;
-        background-color:#ffffff;
+    .paedawrapper {
+        margin-top: 150px;
+        margin-bottom: 34px;
+        margin-left: 18%;
+        margin-right: 18%;
+        background-color: #ffffff;
     }
-    .paedatekst{
-        margin-left:12%;
-        margin-right:12%;
+    .paedatekst {
+        margin-left: 12%;
+        margin-right: 12%;
     }
-    .paedatekst a{
-        text-decoration:none;
-        line-height:25px;
+    .paedatekst a {
+        text-decoration: none;
+        line-height: 25px;
     }
-    .paedatekst p{
-        line-height:1.6em;
+    .paedatekst p {
+        line-height: 1.6em;
     }
-    .paedatekst img{
-        display:block;
-        margin-left:auto;
-        margin-right:auto;
+    .paedatekst img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
