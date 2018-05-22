@@ -78,6 +78,14 @@ h3{
         display: none;
     }
 
+    
+    /*tilbage pil*/
+    #backarrow{
+        float:left;
+        width:30px;
+        background-color:#667e90;
+    }
+    
     /*logo til mobil*/
     #logomobil {
         width: 100px;
@@ -178,6 +186,9 @@ h3{
         display: none;
     }
 
+    #backarrow{
+        display:none;
+    }
     #slideshow-wrappermobil{
         display:none;
     }
