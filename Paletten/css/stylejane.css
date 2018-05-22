@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    font-family: Open Sans;
+    font-family: rubik-regular;
     background-color: #ecf5d4;
     min-height: 100%;
     display: grid;
@@ -17,6 +17,7 @@ body {
 
 
 h1, h2, h3{
+ font-family: rubik-regular,IndieFlower;
  text-align: center;
  color:black;
 
@@ -124,6 +125,7 @@ h1, h2, h3{
   /*KALENDER*/
  
  .col{
+ 
   padding-left:30px;
   padding-right: 10px;
  }
@@ -151,15 +153,16 @@ h1, h2, h3{
 }
  
  .containertwo {
+  color: #696969;
   display:flex;
   justify-content: space-between;
   background-color: ghostwhite;
    font-family: fantasy;
-  font-size: 1.1em;
+  font-size: 1.4em;
   line-height:1.3;
   width: 47%;
-  margin-top: 50px;
-  padding-top: 280px;
+  margin-top: -20px;
+  padding-top: 180px;
   padding-left: 20px;
   padding-right: 20px;
 border display: none;
