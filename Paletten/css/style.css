@@ -289,15 +289,15 @@ h3{
 
     /*slideshow til web*/
     #slideshow-wrapper {
-        width: 740px;
-        height: 320px;
+        width: 100%;
+        height: 400px;
         margin: 30px auto;
     }
 
     #slideshow {
         margin-bottom: 5px;
-        width: 740px;
-        height: 320px;
+        width: 100%;
+        height: 400px;
         overflow: hidden;
         white-space:nowrap;
     }
@@ -306,6 +306,7 @@ h3{
         display: inline-block;
         width: 100%;
         height: 100%;
+        object-fit:cover;
     }
 
     /*de 3 bokse til forsiden*/
