@@ -142,7 +142,7 @@ h1, h2, h3{
 
   display:flex; 
   justify-content: space-between;
-  background-color: slategrey;
+  background-color: #667e90;
   width: 90%;
   margin-top:30px;
   padding-top: 130px;
@@ -169,7 +169,7 @@ border display: none;
  .containertree {
   display:flex;
   justify-content: space-between;
- background-color: slategrey;
+ background-color: #667e90;
   line-height: 1.5;
   font-size: 1.3em;
   width:50%;
@@ -416,7 +416,7 @@ background-color: white;
  display: flex;
   width: 710px;
   height: 410px;
-  background-color: lightblue;
+  background-color:#cdd1ba;
  }
   
  
