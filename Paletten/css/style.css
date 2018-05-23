@@ -30,11 +30,11 @@ footer {
 
 /*tekst til undersider*/
 
-.tekst h1 {
+ h1 {
     text-align: center;
 }
 
-.tekst h1, h2, h3 {
+    h1, h2, h3 {
     color: #667e90;
 }
 
