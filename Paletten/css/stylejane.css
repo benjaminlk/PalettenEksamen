@@ -484,7 +484,11 @@ padding-left:40px;
   
 }
 
-
+    @media screen and (max-width:600px){
+        #pil{
+            display:none;
+        }
+    }
 
 /* RESPONSIVE MOBIL SIDER*/
 

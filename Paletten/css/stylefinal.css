@@ -177,16 +177,16 @@ h3 {
         margin-top: 10px;
         text-align: center;
     }
-    
-    
-        /*tekst til undersider der kun er tekst på*/
+
+
+    /*tekst til undersider der kun er tekst på*/
     .tekstwrapper {
         margin-bottom: 34px;
     }
     .tekst {
         margin-left: 2%;
         margin-right: 2%;
-        padding:0 10px 5px 10px;
+        padding: 0 10px 5px 10px;
     }
     .tekst a {
         text-decoration: none;
@@ -197,7 +197,7 @@ h3 {
     }
     .tekst img {
         display: block;
-        width:100px;
+        width: 100px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -324,6 +324,11 @@ h3 {
         padding: 3px;
     }
 
+    
+    /*ÅBNINGSTIDER til mobil */
+    #pil{
+        display:none;
+    }
 
     /*Personale siden til mobil*/
     .bok2 img {
@@ -535,7 +540,7 @@ h3 {
         font-size: 1em;
         text-align: center;
         line-height: 0.5em;
-        color:#667e90;
+        color: #667e90;
     }
 
     .bokse p {
@@ -761,7 +766,7 @@ h3 {
 
     /* GALLERI */
     .galleri {
-        color:#667e90;
+        color: #667e90;
         text-align: center;
         margin-top: 100px;
         padding-top: 20px;
@@ -825,6 +830,75 @@ h3 {
         border: 2px solid #696969;
         box-shadow: 3px 3px 3px #bfbcbc;
     }
+
+
+    /*ÅBNINGSTIDER  */
+    /*pil der bevæger uendeligt sig op og ned */
+    #pil {
+        width: 50px;
+        margin-left: 520px;
+        position: relative;
+        -webkit-animation: mymove 5s infinite;
+        animation: mymove 1.5s infinite;
+    }
+
+    @-webkit-keyframes mymove {
+        from {
+            left: 0px;
+            top: -20px;
+        }
+        to {
+            left: 0px;
+            top: 30px;
+        }
+    }
+
+    #pil img {
+        width: 100%;
+    }
+
+    .aatekst {
+        text-align: center;
+        font-family: fantasy;
+        margin-left: 130px;
+        margin-right: 110px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        background-color: white;
+    }
+
+    #aatext {
+        color: ghostwhite;
+    }
+
+    .aawrapper {
+        padding-left: 50px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        margin-top: 120px;
+        margin-left: 190px;
+        margin-bottom: 20px;
+        display: flex;
+        width: 810px;
+        height: 310px;
+        background-color: #667e90;
+        color: ghostwhite;
+        font-size: 1.4em;
+    }
+
+
+
+    .aawrappertwo {
+        padding: 20px 30px;
+        margin-top: 20px;
+        margin-left: 180px;
+        margin-right: 20px;
+        display: flex;
+        width: 700px;
+        height: auto;
+        background-color: white;
+    }
+
 
 
     /*PERSONALE  */
