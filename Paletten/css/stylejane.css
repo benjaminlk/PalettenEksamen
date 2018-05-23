@@ -398,7 +398,7 @@ img:hover {
  
   /*pil der bevæger uendeligt sig op og ned */
  
- .pil{
+ #pil{
   width: 50px;
 margin-left: 520px;
   
@@ -413,7 +413,7 @@ margin-left: 520px;
     to {left: 0px; top: 30px;}
 }
 
- .pil img{
+ #pil img{
   
   width: 100%;
  }
@@ -430,6 +430,10 @@ margin-bottom: 10px;
 background-color: white;
  
 }
+ 
+ #aatext{
+  color: ghostwhite;
+ }
  
  
  .aawrapper{
@@ -632,12 +636,9 @@ padding-left: 30px;
   
   /*åbningstider til mobil*/
   
- .pil{
-  display: none;
- }
- 
- 
-}
+  #pil{
+ display: none;
+  }
 
  
   /*Galleri siden til mobil*/
