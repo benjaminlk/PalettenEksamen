@@ -399,8 +399,9 @@ img:hover {
   /*pil der bevæger uendeligt sig op og ned */
  
  .pil{
+ 
   width: 50px;
-margin-left: 300px;
+margin-left: 600px;
   
     position: relative;
     -webkit-animation: mymove 5s infinite; 
@@ -409,8 +410,8 @@ margin-left: 300px;
  
  
  @-webkit-keyframes mymove {
-    from {left: 0px; top: -30px;}
-    to {left: 0px; top: 30px;}
+    from {left: 0px; top: 100px;}
+    to {left: 0px; top: 210px;}
 }
 
  .pil img{
@@ -418,45 +419,45 @@ margin-left: 300px;
   width: 100%;
  }
  
+
+
+ .containerone{
+
+  text-align: center;
+ padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  margin-top: 150px;
+ margin-left: 300px;
+  margin-bottom: 40px;
+ display: flex;
+  width: 700px;
+  height: 300px;
+  background-color:#667e90;
+ }
+  
+ .containerfive{
+
+  margin-top: 50px;
+  margin-bottom: auto;
+ margin-left: 300px;
+  display: flex;
+  width: 50%;
+  height: auto;
+  background-color: white;
+  padding-right: 30px;
+ }
+  
  
  .aatekst{
   
 text-align: center;
  font-family: fantasy;
-  margin-top: 50px;
-margin-bottom: 1px;
+margin-bottom: 30px;
 background-color: white;
+  margin-top: 160px;
  
 }
-  
-  
- }
- 
- .aawrapper{
-
-  padding:40px 290px;
- margin-left: 120px;
- display: flex;
-  width: 710px;
-  height: 410px;
-  background-color:#cdd1ba;
- }
-  
- 
- 
- .aawrappertwo{
-
-  text-align: center;
-  padding: 10px 10px;
-  margin-top: 20px;
-  margin-left: 125px;
-  margin-right: 20px;
-  display: flex;
-  width: 700px;
-  height: auto;
-  background-color: white;
- }
-  
 
 /* FORÆLDREBESTYRELSES SIDE */
 
@@ -577,7 +578,7 @@ margin:
 }
  
  .col{
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: auto;
  padding-left:20px;
   padding-right: 10px;
@@ -585,7 +586,6 @@ margin:
  }
   
    
- 
 .containertwo {
  border: solid 1px;
   margin-bottom: 10px;
