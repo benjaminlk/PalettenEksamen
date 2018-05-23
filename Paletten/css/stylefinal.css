@@ -177,6 +177,167 @@ h3 {
         margin-top: 10px;
         text-align: center;
     }
+
+    /*kalender til mobil*/
+    .weekdays li,
+    .days li {
+        width: 3.1%;
+    }
+
+    .month {
+        padding: 35px 15px;
+        width: 50%;
+        background: #cdd1ba;
+        text-align: center;
+        margin-left: 21px;
+    }
+
+    .month ul {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .month ul li {
+        color: black;
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .month .prev {
+        float: left;
+        margin: padding-top: 2px;
+    }
+
+    .month .next {
+        float: right;
+        padding-top: 2px;
+    }
+
+    .weekdays {
+        width: 90%;
+        margin-left: 20px;
+        padding: 2px 0;
+        background-color: #ddd;
+        margin-left: 5px;
+    }
+
+    .weekdays li {
+        display: inline-block;
+        width: 12%;
+        color: #666;
+        text-align: center;
+        margin-left: 2px;
+    }
+
+    .days {
+        width: 90%;
+        padding: 3px 0;
+        background: #eee;
+        margin-left: 5px;
+    }
+
+    .days li {
+        list-style-type: none;
+        display: inline-flex;
+        width: 10%;
+        text-align: center;
+        margin-left: 6px;
+        margin-bottom: 5px;
+        color: #777;
+    }
+
+    .days li .active {
+        padding: 3px;
+        background: #cdd1ba;
+        color: white !important
+    }
+
+
+    /*bokse til Kalendersiden til mobil*/
+    .container {
+        border: solid 1px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .col {
+        margin-top: 20px;
+        margin-bottom: auto;
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+
+
+    .containertwo {
+        border: solid 1px;
+        margin-bottom: 10px;
+        font-family: fantasy;
+    }
+
+    .containertree {
+        border: solid 1px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+    }
+
+
+    /*Galleri siden til mobil*/
+    .galleri {
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .galleri img {
+        width: 30%;
+        margin-top: 5px;
+        padding: 3px;
+    }
+
+
+    /*Personale siden til mobil*/
+    .bok2 img {
+        text-align: center;
+        width: 50%;
+        margin-left: 210px;
+        margin-top: 20px;
+    }
+
+
+    /* underside -Stuerne  til mobil*/
+    #omtekst {
+        text-align: left;
+        width: 900px;
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: #ecf5d4;
+
+    }
+
+    .bok {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 80px;
+        margin-bottom: 85px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .bok1 {
+        justify-content: space-between;
+        width: 100%;
+        padding: 0px 15px;
+        margin: 20px 20px;
+        background-color: #f5f5f5;
+        border: 2px solid #696969;
+        box-shadow: 3px 3px 3px #bfbcbc;
+    }
 }
 
 
@@ -334,9 +495,9 @@ h3 {
         height: 100%;
         object-fit: cover;
     }
-    
-    
-        /*de 3 bokse til forsiden*/
+
+
+    /*de 3 bokse til forsiden*/
     .bokse {
         display: flex;
         justify-content: space-around;
@@ -385,8 +546,8 @@ h3 {
         margin-right: 5px;
     }
 
-    
-        /*footer til web*/
+
+    /*footer til web*/
     footer img {
         width: 50px;
         margin: 0 8px;
@@ -396,8 +557,8 @@ h3 {
         padding-top: 10px;
         margin-top: 60px;
     }
-    
-        .flex-container {
+
+    .flex-container {
         display: flex;
         justify-content: space-around;
     }
@@ -416,9 +577,9 @@ h3 {
     .fbintra {
         margin-top: 10px;
     }
-    
-    
-        /*tekst til undersider der kun er tekst på*/
+
+
+    /*tekst til undersider der kun er tekst på*/
     .tekstwrapper {
         margin-top: 150px;
         margin-bottom: 34px;
@@ -442,4 +603,240 @@ h3 {
         margin-left: auto;
         margin-right: auto;
     }
+
+
+    /*KALENDER*/
+    .col {
+
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+
+    #kalenderwrapper {
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-color: ghostwhite;
+    }
+
+
+    /*bokse til kalender siden*/
+    .container {
+        display: flex;
+        justify-content: space-between;
+        background-color: #667e90;
+        width: 90%;
+        margin-top: 30px;
+        padding-top: 130px;
+    }
+
+    .containertwo {
+        color: #696969;
+        display: flex;
+        justify-content: space-between;
+        background-color: ghostwhite;
+        font-family: fantasy;
+        font-size: 1.4em;
+        line-height: 1.3;
+        width: 47%;
+        margin-top: -20px;
+        padding-top: 180px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border display: none;
+    }
+
+    .containertree {
+        display: flex;
+        justify-content: space-between;
+        background-color: #667e90;
+        line-height: 1.5;
+        font-size: 1.3em;
+        width: 50%;
+        margin-top: 100px;
+        padding-top: 60px;
+        padding-left: 1px;
+    }
+
+    /* kalender til venstre */
+    .month {
+        padding: 25px 25px;
+        width: 90%;
+        background: #cdd1ba;
+        text-align: center;
+        margin-left: 25px;
+        margin-top: 80px;
+    }
+
+    .month ul {
+        margin: 10px;
+        padding: 10;
+    }
+
+    .month ul li {
+        color: white;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-left: 10px;
+    }
+
+    .month .prev {
+        float: left;
+        margin: padding-top: 10px;
+
+    }
+
+    .month .next {
+        float: right;
+        padding-top: 10px;
+    }
+
+    .weekdays {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 3px;
+        background-color: #ddd;
+        margin-left: 25px;
+    }
+
+    .weekdays li {
+        display: inline-block;
+        width: 11%;
+        color: #666;
+        text-align: center;
+        margin-left: 12px;
+    }
+
+    .days {
+        width: 90%;
+        padding: 25px 0;
+        background: #eee;
+        margin-left: 25px;
+        margin-bottom: 20px;
+    }
+
+    .days li {
+        list-style-type: none;
+        display: inline-flex;
+        width: 9%;
+        text-align: center;
+        margin-left: 25px;
+        margin-bottom: 5px;
+        font-size: 14px;
+        color: #777;
+    }
+
+    .days li .active {
+        padding: 8px;
+        background: #cdd1ba;
+        color: white !important
+    }
+
+
+    /* GALLERI */
+    .galleri {
+        text-align: center;
+        margin-top: 100px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .galleri img {
+        width: 17%;
+        margin-top: 5px;
+        padding: 3px;
+        filter: grayscale(100%);
+        transition: 2s;
+    }
+
+    .gallery img:hover {
+        filter: grayscale(0);
+        transform: scale(1.1);
+    }
+
+
+    /*OM OS  - underside -Stuerne */
+    /*tekst på Stuerne */
+    #omtekst {
+        text-align: left;
+        margin-top: 180px;
+        background-color: #ecf5d4;
+    }
+
+    .bok {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 90px;
+        margin-bottom: 40px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .bok1 {
+        justify-content: space-between;
+        width: 30%;
+        padding: 15px 12px;
+        background-color: lightcoral;
+        border: 2px solid #696969;
+        box-shadow: 3px 3px 3px #bfbcbc;
+    }
+
+    .bok4 {
+        justify-content: space-between;
+        width: 30%;
+        padding: 15px 12px;
+        background-color: lightseagreen;
+        border: 2px solid #696969;
+        box-shadow: 3px 3px 3px #bfbcbc;
+    }
+
+    .bok3 {
+        justify-content: space-between;
+        width: 30%;
+        padding: 15px 12px;
+        background-color: lightblue;
+        border: 2px solid #696969;
+        box-shadow: 3px 3px 3px #bfbcbc;
+    }
+
+
+    /*PERSONALE  */
+    #perwrapper {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        width: auto;
+        height: auto;
+        background-color: ghostwhite;
+    }
+
+    .bok2 {
+        text-align: center;
+        border: 2px solid #696969;
+        justify-content: space-between;
+        width: 25%;
+        padding: 4px 1px;
+        background-color: #f5f5f5;
+        box-shadow: 3px 3px 3px #bfbcbc;
+    }
+
+    .bok2 img {
+        text-align: center;
+        width: 100;
+        margin: 5px;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+    }
+
+    /* hover effekt på personale billeder*/
+    img:hover {
+        opacity: 1.0;
+        filter: alpha(opacity=100);
+    }
+
+
+
 }
