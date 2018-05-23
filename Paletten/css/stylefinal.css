@@ -98,7 +98,7 @@ h3 {
         border-bottom-left-radius: 5px;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
-        margin: 5px;
+        margin: 5px -20px 0 5px;
     }
 
 
@@ -176,6 +176,31 @@ h3 {
     footer {
         margin-top: 10px;
         text-align: center;
+    }
+    
+    
+        /*tekst til undersider der kun er tekst på*/
+    .tekstwrapper {
+        margin-bottom: 34px;
+    }
+    .tekst {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding:0 10px 5px 10px;
+        background-color:ghostwhite;
+    }
+    .tekst a {
+        text-decoration: none;
+        line-height: 25px;
+    }
+    .tekst p {
+        line-height: 1.6em;
+    }
+    .tekst img {
+        display: block;
+        width:100px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /*kalender til mobil*/
