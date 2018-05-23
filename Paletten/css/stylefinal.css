@@ -217,8 +217,8 @@ h3 {
         margin-left: 5%;
     }
 
-    
-        /*Menu til web*/
+
+    /*Menu til web*/
     .menuweb {
         font-family: Open Sans;
         float: right;
@@ -265,9 +265,9 @@ h3 {
         border-width: 1.5px;
         border-color: #696969;
     }
-    
-    
-        /*dropdown menu*/
+
+
+    /*dropdown menu*/
     .dropdown {
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
@@ -305,12 +305,141 @@ h3 {
         display: flex;
         flex-direction: column;
     }
-    
+
 
     /*slideshow bliver skuppet ned på siden, så det ikke står under menulinje*/
     .position {
         margin-top: 110px;
     }
 
+
+    /*slideshow til web*/
+    #slideshow-wrapper {
+        width: 100%;
+        height: 400px;
+        margin: 30px auto;
+    }
+
+    #slideshow {
+        margin-bottom: 5px;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    #slideshow img {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
     
     
+        /*de 3 bokse til forsiden*/
+    .bokse {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .bokse h2 {
+        font-size: 1em;
+        text-align: center;
+        line-height: 0.5em;
+    }
+
+    .bokse p {
+        line-height: 1.9em;
+        margin-left: 10px;
+        font-size: 0.9em;
+    }
+
+    .bokse a {
+        line-height: 8em;
+        width: 100px;
+        text-decoration: none;
+        font-size: 0.8em;
+        margin-left: 15px;
+    }
+    .boks1 {
+        border: 2px solid #696969;
+        width: 300px;
+        height: 300px;
+        background-color: #f5f5f5;
+        box-shadow: 3px 3px 3px #bfbcbc;
+    }
+
+    .tekstogikon {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .boks1 img {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    
+        /*footer til web*/
+    footer img {
+        width: 50px;
+        margin: 0 8px;
+    }
+
+    footer {
+        padding-top: 10px;
+        margin-top: 60px;
+    }
+    
+        .flex-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .lefttext p {
+        font-size: 0.6em;
+        line-height: 0.7em
+    }
+
+    .centertext {
+        font-size: 0.8em;
+        margin-top: 10px;
+
+    }
+
+    .fbintra {
+        margin-top: 10px;
+    }
+    
+    
+        /*tekst til undersider der kun er tekst på*/
+    .tekstwrapper {
+        margin-top: 150px;
+        margin-bottom: 34px;
+        margin-left: 18%;
+        margin-right: 18%;
+        background-color: #ffffff;
+    }
+    .tekst {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+    .tekst a {
+        text-decoration: none;
+        line-height: 25px;
+    }
+    .tekst p {
+        line-height: 1.6em;
+    }
+    .tekst img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
