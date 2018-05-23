@@ -400,7 +400,7 @@ img:hover {
  
  .pil{
   width: 50px;
-margin-left: 520px;
+margin-left: 440px;
   
     position: relative;
     -webkit-animation: mymove 5s infinite; 
@@ -420,31 +420,34 @@ margin-left: 520px;
  
  
  .aatekst{
-  
+   
 text-align: center;
+  font-size: 1em;
  font-family: fantasy;
-  margin-left: 130px;
-  margin-right: 130px;
+  margin-left: 170px;
+  margin-right: 200px;
   margin-top:150px;
 margin-bottom: 10px;
 background-color: white;
+  padding: 30px 60px;
  
 }
  
  
  .aawrapper{
 
-  padding-left:10px;
-  padding-left: 10px;
+  padding-left:100px;
+  padding-right: 10px;
   padding-top: 40px;
   padding-bottom: 10px;
   margin-top: -0px;
- margin-left: 170px;
+ margin-left: 70px;
   margin-bottom: 20px;
  display: flex;
   width: 810px;
   height: 310px;
-  background-color:#cdd1ba;
+  background-color:#667e90;
+  color: ghostwhite;
  }
   
  
