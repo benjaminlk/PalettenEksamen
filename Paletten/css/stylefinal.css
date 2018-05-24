@@ -331,6 +331,13 @@ h3 {
         display:none;
     }
 
+ .paedawrapper{
+  text-align: center;
+  margin-right: 30px;
+  font-family: fantasy;
+ }
+ 
+ 
     /*Personale siden til mobil*/
     .bok2 img {
         text-align: center;
