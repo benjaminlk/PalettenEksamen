@@ -24,6 +24,7 @@ body {
 
 footer {
     background-color: #667e90;
+ color:ghostwhite;
     grid-row-start: 3;
     grid-row-end: 4;
 }
