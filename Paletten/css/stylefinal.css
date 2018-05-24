@@ -344,7 +344,7 @@ h3 {
         margin-top: 20px;
     }
 
-
+ 
     /* underside -Stuerne  til mobil*/
     
  
@@ -388,15 +388,18 @@ h3 {
  
  
  /* personale - til mobil */
-  #perwrapper {
-     
-   text-align: center;
-   margin-right: -200px;
-   margin-left: -230px;
-   
   
-    }
-
+ #perwrapper{
+  text-align: center;
+  margin-right:60px;
+ 
+ }
+ 
+ #perwrapper img{
+margin-left: 30px;
+ }
+ 
+ 
 }
 
 
