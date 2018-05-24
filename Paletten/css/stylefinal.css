@@ -282,9 +282,7 @@ h3 {
 
     /*bokse til Kalendersiden til mobil*/
     .container {
-        border: solid 1px;
-        margin-top: 30px;
-        margin-bottom: 10px;
+        display: none;
     }
 
     .col {
