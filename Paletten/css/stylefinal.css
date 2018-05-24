@@ -341,8 +341,8 @@ h3 {
 
 
     /* underside -Stuerne  til mobil*/
-    #omtekst {
-     
+    #omtekst{
+   
         text-align: left;
         width: 900px;
         margin-left: 15px;
@@ -350,6 +350,8 @@ h3 {
         background-color: #ecf5d4;
 
     }
+ 
+ 
 
     .bok {
      
@@ -364,12 +366,30 @@ h3 {
     .bok1 {
         justify-content: space-between;
         width: 100%;
-        padding: 0px 15px;
-        margin: 20px 20px;
-       background-color: lightcoral;
+        padding: 15px 12px;
+        background-color: lightcoral;
         border: 2px solid #696969;
         box-shadow: 3px 3px 3px #bfbcbc;
     }
+  .bok4 {
+        justify-content: space-between;
+        width: 100%;
+        padding: 15px 12px;
+        background-color: lightseagreen;
+        border: 2px solid #696969;
+        box-shadow: 3px 3px 3px #bfbcbc;
+    }
+
+    .bok3 {
+        justify-content: space-between;
+        width: 100%;
+        padding: 15px 12px;
+        background-color: lightblue;
+        border: 2px solid #696969;
+        box-shadow: 3px 3px 3px #bfbcbc;
+    }
+ 
+ 
 }
 
 
@@ -792,13 +812,10 @@ h3 {
 
     /*OM OS  - underside -Stuerne */
     /*tekst på Stuerne */
-    #omtekst {
-        text-align: left;
-        margin-top: 180px;
-        background-color: #ecf5d4;
-    }
+   
 
     .bok {
+    
         display: flex;
         justify-content: space-around;
         margin-top: 90px;
