@@ -382,6 +382,16 @@ h3 {
     }
  
  
+ /* personale - til mobil */
+  #perwrapper {
+     
+   text-align: center;
+   margin-right: -200px;
+   margin-left: -230px;
+   
+  
+    }
+
 }
 
 
@@ -780,6 +790,9 @@ h3 {
 
 
     /* GALLERI */
+ 
+  
+ 
     .galleri {
         color: #667e90;
         text-align: center;
@@ -914,8 +927,11 @@ h3 {
 
 
     /*PERSONALE  */
+ 
     #perwrapper {
-        margin-top: 10px;
+     
+        font-family: fantasy;
+        margin-top: 150px;
         margin-bottom: 20px;
         margin-left: 20px;
         margin-right: 20px;
