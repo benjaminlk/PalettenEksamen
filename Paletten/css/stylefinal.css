@@ -4,7 +4,7 @@
 
 html,
 body {
-    font-family: rubik;
+    font-family: "rubik", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -147,7 +147,7 @@ h3 {
 
     /*menu til mobil*/
     .menumobil {
-        font-family: Open Sans;
+        font-family: "Open Sans", sans-serif;
         text-align: center;
         list-style-type: none;
         padding: 0px;
@@ -469,7 +469,7 @@ h3 {
 
     /*Menu til web*/
     .menuweb {
-        font-family: Open Sans;
+        font-family: "Open Sans", sans-serif;
         float: right;
         list-style-type: none;
         margin: 40px 5% 0 0;
