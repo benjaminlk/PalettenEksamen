@@ -324,6 +324,7 @@ h3 {
         margin-top: 10px;
         padding-top: 10px;
         padding-bottom: 30px;
+        color: #667e90;
     }
 
     .galleri img {
@@ -989,10 +990,9 @@ h3 {
         opacity: 1.0;
         filter: alpha(opacity=100);
     }
-
-    @media (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi) {
-        /* Retina-specific stuff here */
+    
+    /*meld dit barn ind img*/
+    .blomst{
+        width:60%;
     }
-
 }
