@@ -24,7 +24,7 @@ body {
 
 footer {
     background-color: #667e90;
- color:ghostwhite;
+    color: ghostwhite;
     grid-row-start: 3;
     grid-row-end: 4;
 }
@@ -322,37 +322,37 @@ h3 {
         padding: 3px;
     }
 
-    
+
     /*ÅBNINGSTIDER til mobil */
-    #pil{
-        display:none;
+    #pil {
+        display: none;
     }
-    
+
     .aawrappertwo {
-        text-align:center;
+        text-align: center;
         margin-top: 20px;
     }
-    
+
     .aawrappertwo h1,
-    .aawrappertwo h2{
+    .aawrappertwo h2 {
         color: #667e90;
     }
-    
-        .aawrapper {
-            margin-right:auto;
-            margin-left:auto;
-            text-align:center;
-            padding-top:5px;
-            padding-bottom:5px;
+
+    .aawrapper {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
         margin-bottom: 20px;
         width: 80%;
         background-color: #667e90;
         color: ghostwhite;
     }
 
-    
- 
- 
+
+
+
     /*Personale siden til mobil*/
     .bok2 img {
         text-align: center;
@@ -361,13 +361,10 @@ h3 {
         margin-top: 20px;
     }
 
- 
-    /* underside -Stuerne  til mobil*/
-    
- 
 
+    /* underside -Stuerne  til mobil*/
     .bok {
-     
+
         margin-top: 30px;
         margin-bottom: 85px;
         margin-left: 5%;
@@ -375,14 +372,14 @@ h3 {
     }
 
     .bok1 {
-    
+
         width: 100%;
         padding: 15px 12px;
         background-color: lightcoral;
         border: 2px solid #696969;
         box-shadow: 3px 3px 3px #bfbcbc;
     }
-  .bok4 {
+    .bok4 {
         width: 100%;
         padding: 15px 12px;
         background-color: lightseagreen;
@@ -394,27 +391,30 @@ h3 {
         width: 100%;
         padding: 15px 12px;
         background-color: lightblue;
-       border: 2px solid #696969;
+        border: 2px solid #696969;
         box-shadow: 3px 3px 3px #bfbcbc;
     }
- 
- 
- /* personale - til mobil */
-  
- #perwrapper{
-  text-align: center;
-  margin-right:60px;
- 
- }
- 
- #perwrapper img{
-margin-left: 30px;
- }
- /*billede på kontaktside*/
-    #kontaktimg{
-        width:90%;
+
+
+    /* personale - til mobil */
+    #perwrapper {
+        text-align: center;
+        margin-right:auto;
+        margin-left:auto;
+        color: #667e90;
+
     }
- 
+
+    #perwrapper img {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    /*billede på kontaktside*/
+    #kontaktimg {
+        width: 90%;
+    }
+
 }
 
 
@@ -706,7 +706,7 @@ margin-left: 30px;
         width: 90%;
         margin-top: 30px;
         padding-top: 130px;
-        color:#ffffff;
+        color: #ffffff;
     }
 
     .containertwo {
@@ -734,7 +734,7 @@ margin-left: 30px;
         margin-top: 100px;
         padding-top: 60px;
         padding-left: 1px;
-        color:#ffffff;
+        color: #ffffff;
     }
 
     /* kalender til venstre */
@@ -814,9 +814,6 @@ margin-left: 30px;
 
 
     /* GALLERI */
- 
-  
- 
     .galleri {
         color: #667e90;
         text-align: center;
@@ -841,10 +838,8 @@ margin-left: 30px;
 
     /*OM OS  - underside -Stuerne */
     /*tekst på Stuerne */
-   
-
     .bok {
-    
+
         display: flex;
         justify-content: space-around;
         margin-top: 90px;
@@ -885,9 +880,9 @@ margin-left: 30px;
     /*pil der bevæger uendeligt sig op og ned */
     #pil {
         width: 50px;
-        display:block;
-        margin-right:auto;
-        margin-left:auto;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
         position: relative;
         -webkit-animation: mymove 5s infinite;
         animation: mymove 1.5s infinite;
@@ -914,8 +909,8 @@ margin-left: 30px;
         padding-top: 40px;
         padding-bottom: 10px;
         margin-top: 120px;
-        margin-right:auto;
-        margin-left:auto;
+        margin-right: auto;
+        margin-left: auto;
         margin-bottom: 20px;
         width: 80%;
         height: 310px;
@@ -923,19 +918,24 @@ margin-left: 30px;
         color: ghostwhite;
         font-size: 1.4em;
     }
-    
-    .aawrapperh1{
-        float:left;
+
+    .aawrappertwo h1,
+    .aawrappertwo h2 {
+        color: #667e90;
     }
-    .aawrapperp{
-        float:right;
-        margin-right:50px;
+
+    .aawrapperh1 {
+        float: left;
+    }
+    .aawrapperp {
+        float: right;
+        margin-right: 50px;
     }
 
 
 
     .aawrappertwo {
-        text-align:center;
+        text-align: center;
         margin-top: 20px;
         background-color: white;
     }
@@ -943,9 +943,8 @@ margin-left: 30px;
 
 
     /*PERSONALE  */
- 
     #perwrapper {
-     
+
         margin-top: 150px;
         margin-bottom: 20px;
         margin-left: 20px;
@@ -954,6 +953,7 @@ margin-left: 30px;
         width: auto;
         height: auto;
         background-color: ghostwhite;
+        color: #667e90;
     }
 
     .bok2 {
@@ -980,10 +980,9 @@ margin-left: 30px;
         filter: alpha(opacity=100);
     }
 
-@media 
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
-    /* Retina-specific stuff here */
-}
+    @media (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+        /* Retina-specific stuff here */
+    }
 
 }
