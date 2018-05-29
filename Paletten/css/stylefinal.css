@@ -327,14 +327,30 @@ h3 {
     #pil{
         display:none;
     }
-
- .paedawrapper{
-  text-align: center;
- }
-    .aatekst{
-        margin-left:auto;
-        margin-right:auto;
+    
+    .aawrappertwo {
+        text-align:center;
+        margin-top: 20px;
     }
+    
+    .aawrappertwo h1,
+    .aawrappertwo h2{
+        color: #667e90;
+    }
+    
+        .aawrapper {
+            margin-right:auto;
+            margin-left:auto;
+            text-align:center;
+            padding-top:5px;
+            padding-bottom:5px;
+        margin-bottom: 20px;
+        width: 80%;
+        background-color: #667e90;
+        color: ghostwhite;
+    }
+
+    
  
  
     /*Personale siden til mobil*/
@@ -690,6 +706,7 @@ margin-left: 30px;
         width: 90%;
         margin-top: 30px;
         padding-top: 130px;
+        color:#ffffff;
     }
 
     .containertwo {
@@ -717,6 +734,7 @@ margin-left: 30px;
         margin-top: 100px;
         padding-top: 60px;
         padding-left: 1px;
+        color:#ffffff;
     }
 
     /* kalender til venstre */
@@ -890,15 +908,6 @@ margin-left: 30px;
         width: 100%;
     }
 
-    .aatekst {
-        text-align: center;
-        margin-left: 130px;
-        margin-right: 130px;
-        margin-top: 30px;
-        margin-bottom: 10px;
-        background-color: white;
-    }
-
 
     .aawrapper {
         padding-left: 50px;
@@ -908,8 +917,7 @@ margin-left: 30px;
         margin-right:auto;
         margin-left:auto;
         margin-bottom: 20px;
-        display: flex;
-        width: 810px;
+        width: 80%;
         height: 310px;
         background-color: #667e90;
         color: ghostwhite;
@@ -919,12 +927,8 @@ margin-left: 30px;
 
 
     .aawrappertwo {
+        text-align:center;
         margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        width: 700px;
-        height: auto;
         background-color: white;
     }
 
