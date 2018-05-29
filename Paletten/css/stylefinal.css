@@ -198,7 +198,7 @@ h3 {
     }
     .tekst img {
         display: block;
-        width: 100px;
+        width: 60%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -425,7 +425,7 @@ h3 {
     #kontaktimg {
         width: 90%;
     }
-
+/*meld dit barn ind img*/
 }
 
 
