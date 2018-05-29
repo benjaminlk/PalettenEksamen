@@ -504,9 +504,9 @@ h3 {
     li a {
         color: #696969;
     }
-
-    #notweb {
-        display: none;
+    
+    .notweb{
+        display:none;
     }
 
     .active {
