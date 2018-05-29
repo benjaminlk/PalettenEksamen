@@ -923,6 +923,14 @@ margin-left: 30px;
         color: ghostwhite;
         font-size: 1.4em;
     }
+    
+    .aawrapperh1{
+        float:left;
+    }
+    .aawrapperp{
+        float:right;
+        margin-right:50px;
+    }
 
 
 
