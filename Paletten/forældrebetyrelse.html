@@ -71,7 +71,26 @@
             <p>I forældrebestyrelsen får man et indblik i Palettens daglige drift. <br>Personalesituationen og vikarproblematikken er blandt de forhold, der kan påvirke dagens gang i institutionen. <br><br>Som forældre skal man have interesse for bestyrelses arbejde, idet det tidsmæssige krav kan variere meget.</p>
         </div>
     </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
 
     <footer>
         <div class="flex-container">
