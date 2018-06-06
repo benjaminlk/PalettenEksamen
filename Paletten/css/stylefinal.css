@@ -980,7 +980,9 @@ h3 {
  
   width: auto;
   height: auto;
-  margin-top: 150px;
+  margin-top: 170px;
+     
+    
 }
  
  /*bokse i forskellige farver*/
@@ -990,7 +992,7 @@ h3 {
  width: 25%;
   float: left;
    text-align: center;
-border: solid #ecf5d4 5px;
+border: solid #ecf5d4 15px;
   
   
  }
@@ -1001,7 +1003,7 @@ border: solid #ecf5d4 5px;
   float: left;
   width: 25%;
    text-align: center;
-  border: solid #ecf5d4 5px;
+  border: solid #ecf5d4 15px;
  
   
   
@@ -1012,7 +1014,7 @@ border: solid #ecf5d4 5px;
   float: left;
   width: 25%;
    text-align: center;
-  border: solid #ecf5d4 5px;
+  border: solid #ecf5d4 15px;
  
  }
  
@@ -1022,7 +1024,7 @@ border: solid #ecf5d4 5px;
   float: left;
   width: 25%;
   text-align: center;
-   border: solid #ecf5d4 5px;
+   border: solid #ecf5d4 15px;
   
   
  }
