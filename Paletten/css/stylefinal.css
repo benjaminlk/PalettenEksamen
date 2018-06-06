@@ -983,6 +983,8 @@ h3 {
   margin-top: 150px;
 }
  
+ /*bokse i forskellige farver*/
+ 
  .boka{
   background-color: aliceblue;
  width: 25%;
@@ -1025,7 +1027,8 @@ border: solid #ecf5d4 5px;
   
  }
  
- 
+  
+ /*bokse der roterer billeder 180 gr. rundt, når man rører med musen*/
  
   .card-container {
  
@@ -1063,7 +1066,6 @@ border: solid #ecf5d4 5px;
  
  
 }
- 
  
     
     /*meld dit barn ind img*/
