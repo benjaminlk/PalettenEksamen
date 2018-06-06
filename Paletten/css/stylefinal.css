@@ -421,10 +421,31 @@ h3 {
         margin-left:auto;
         margin-right:auto;
     }
+ 
+ .boka{
+  text-align: center;
+  
+ }
+ 
+ .bokb{
+  text-align: center;
+ }
+ 
+ .bokc{
+  text-align: center;
+ }
+ 
+ .bokd{
+  text-align: center;
+ }
+ 
+ 
+ 
     /*billede på kontaktside*/
     #kontaktimg {
         width: 90%;
     }
+ 
 /*meld dit barn ind img*/
 }
 
@@ -955,7 +976,8 @@ h3 {
 
 
     /*PERSONALE  */
-    .per-wrapper{
+    #per-wrapper{
+ 
   width: auto;
   height: auto;
   margin-top: 150px;
@@ -968,11 +990,12 @@ h3 {
    text-align: center;
 border: solid #ecf5d4 5px;
   
+  
  }
  
  .bokb{
  
-  background-color: indianred;
+  background-color: lightcoral;
   float: left;
   width: 25%;
    text-align: center;
