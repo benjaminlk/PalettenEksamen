@@ -1039,9 +1039,10 @@ border: solid #ecf5d4 15px;
   height: 200px;
   perspective: 600;
   position:relative;
-  width: auto;
-   
-   
+  width: 250px;
+   padding: 10px 60px;
+ 
+
 }
 .card {
 
