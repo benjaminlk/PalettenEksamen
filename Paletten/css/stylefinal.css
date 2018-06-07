@@ -1034,24 +1034,11 @@ border: solid #ecf5d4 15px;
   margin-top: 20px;
   cursor: pointer;
   height: 200px;
+   width: auto;
   perspective: 600;
   position:relative;
-
-  width: 250px;
-   padding: 10px 60px;
+padding: 10px 0px;
  
-
-
-  width: auto;
-   
-   
-
-  width: 250px;
-padding: 10px 60px;
-
- 
-
-
 }
 .card {
 
