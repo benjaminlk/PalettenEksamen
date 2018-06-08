@@ -712,8 +712,14 @@ h3 {
     }
 
 
+   
+    
     /*KALENDER*/
-    .col {
+ 
+  /* kalender til venstre */
+
+
+  .col {
 
         padding-left: 30px;
         padding-right: 10px;
@@ -722,126 +728,63 @@ h3 {
     #kalenderwrapper {
         display: flex;
         width: 100%;
-        height: auto;
-        background-color: ghostwhite;
+        height: 750px;
+       margin-top: 10px;
     }
 
+ 
+ 
+ #datepicker{
+ margin-top: 20px;
+  
+  
+ }
+ 
 
     /*bokse til kalender siden*/
     .container {
         display: flex;
-        justify-content: space-between;
+        justify-content: left;
         background-color: #667e90;
-        width: 90%;
-        margin-top: 30px;
-        padding-top: 130px;
-        color: #ffffff;
+        width: 25%;
+        margin-top: 160px;
+     margin-left: auto;
+     margin-right: auto;
+     padding-left:25px;
+  color: #ffffff;
+     
     }
 
     .containertwo {
         color: #696969;
         display: flex;
-        justify-content: space-between;
-        background-color: ghostwhite;
-        font-size: 1.4em;
+    background-color: ghostwhite;
+        font-size: 1.2em;
         line-height: 1.3;
-        width: 47%;
-        margin-top: -20px;
-        padding-top: 180px;
-        padding-left: 20px;
-        padding-right: 20px;
-        border display: none;
+        width: 33%;
+        margin-top: 160px;
+     margin-left: auto;
+     margin-right: auto;
+    
+       
     }
 
     .containertree {
+        color: ghostwhite;
+     background-color:#667e90; 
         display: flex;
-        justify-content: space-between;
-        background-color: #667e90;
-        line-height: 1.5;
-        font-size: 1.3em;
-        width: 50%;
-        margin-top: 100px;
-        padding-top: 60px;
-        padding-left: 1px;
-        color: #ffffff;
+    border: 2px;
+        font-size: 1.2em;
+        line-height: 1.3;
+        width: 33%;
+        margin-top: 160px;
+     margin-left: auto;
+     margin-right: auto;
+     
+       
     }
 
-    /* kalender til venstre */
-    .month {
-        padding: 25px 25px;
-        width: 90%;
-        background: #cdd1ba;
-        text-align: center;
-        margin-left: 25px;
-        margin-top: 80px;
-    }
-
-    .month ul {
-        margin: 10px;
-        padding: 10;
-    }
-
-    .month ul li {
-        color: white;
-        font-size: 20px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        margin-left: 10px;
-    }
-
-    .month .prev {
-        float: left;
-        margin: padding-top: 10px;
-
-    }
-
-    .month .next {
-        float: right;
-        padding-top: 10px;
-    }
-
-    .weekdays {
-        width: 90%;
-        margin: 0 auto;
-        padding: 20px 3px;
-        background-color: #ddd;
-        margin-left: 25px;
-    }
-
-    .weekdays li {
-        display: inline-block;
-        width: 11%;
-        color: #666;
-        text-align: center;
-        margin-left: 12px;
-    }
-
-    .days {
-        width: 90%;
-        padding: 25px 0;
-        background: #eee;
-        margin-left: 25px;
-        margin-bottom: 20px;
-    }
-
-    .days li {
-        list-style-type: none;
-        display: inline-flex;
-        width: 9%;
-        text-align: center;
-        margin-left: 25px;
-        margin-bottom: 5px;
-        font-size: 14px;
-        color: #777;
-    }
-
-    .days li .active {
-        padding: 8px;
-        background: #cdd1ba;
-        color: white !important
-    }
-
-
+   
     /* GALLERI */
     .galleri {
         color: #667e90;
