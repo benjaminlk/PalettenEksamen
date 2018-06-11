@@ -334,10 +334,12 @@ h3 {
 
     /* personale - til mobil */
  
+ 
  .back img{
   display: none;
   
  }
+  
  
  
     #perwrapper {
@@ -354,13 +356,17 @@ h3 {
         margin-right:auto;
     }
  
+ 
+ 
  .boka{
   text-align: center;
+  
   
  }
  
  .bokb{
   text-align: center;
+   
  }
  
  .bokc{
@@ -945,6 +951,8 @@ padding: 10px 0px;
     .blomst{
         width:60%;
     }
+ 
+  /*back to top buttom*/
     #myBtn {
   display: none;
   position: fixed;
