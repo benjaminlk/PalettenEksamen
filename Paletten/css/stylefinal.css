@@ -908,13 +908,13 @@ border: solid #ecf5d4 15px;
  }
  
   
- /*bokse der roterer billeder 180 gr. rundt, når man rører med musen*/
+ /*billede og tekst på bokse*/
  
   .card-container {
  
   margin-top: 20px;
   cursor: pointer;
-  height: 250px;
+  height: 270px;
    width: auto;
   perspective: 600;
   position:relative;
@@ -926,11 +926,9 @@ padding: 10px 0px;
   height: 100%;
   position: absolute;
   transform-style: preserve-3d;
-  transition: all 0.5s ease-in-out;
+
   width: 100%;
 }
-.card:hover {
-  transform: rotateY(180deg);
 }
 .card .side {
   backface-visibility: hidden;
@@ -940,9 +938,7 @@ padding: 10px 0px;
   overflow: hidden;
   width: 100%;
 }
-.card .back {
-  transform: rotateY(180deg);
- 
+
  
 }
  
