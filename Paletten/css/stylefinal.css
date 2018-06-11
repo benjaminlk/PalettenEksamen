@@ -333,6 +333,13 @@ h3 {
 
 
     /* personale - til mobil */
+ 
+ .back img{
+  display: none;
+  
+ }
+ 
+ 
     #perwrapper {
         text-align: center;
         margin-right:auto;
@@ -901,7 +908,7 @@ border: solid #ecf5d4 15px;
  
   margin-top: 20px;
   cursor: pointer;
-  height: 200px;
+  height: 250px;
    width: auto;
   perspective: 600;
   position:relative;
@@ -913,7 +920,7 @@ padding: 10px 0px;
   height: 100%;
   position: absolute;
   transform-style: preserve-3d;
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
   width: 100%;
 }
 .card:hover {
